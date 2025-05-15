@@ -80,7 +80,7 @@ class _AiExplanationPageState extends State<AiExplanationPage> {
       Map<String, double> weeklyProgress,
       ) async {
     final uri = Uri.parse(
-      'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyAmUkx-fw5yRlHaRz8f9IGZUAeujBUGQSM',
+      'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=APIKEY',
     );
 
     final prompt = '''
